@@ -73,8 +73,8 @@ export class SamsungACPlatformAccessory {
       .onGet(this.handleCurrentTemperatureGet.bind(this));
 
     const temperatureProps = {
-      minValue: 10, // C = 50 F
-      maxValue: 30, // C = 86 F
+      minValue: 16,
+      maxValue: 30,
       minStep: 1,
     };
 
